@@ -1,10 +1,8 @@
 name: Demo workflow
 on: workflow_dispatch
 jobs:
-     print:
-           runs-on: ubuntu-latest
-           steps:
-                 - name: Print greeting
-                    run: echo "Hi, Merion!"
-                       
-                     
+  print:
+    runs-on: macos-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hi, Merion!"
