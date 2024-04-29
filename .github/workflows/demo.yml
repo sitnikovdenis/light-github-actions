@@ -4,7 +4,7 @@ jobs:
      print:
            runs-on: macos-latest
            steps:
-                 -name: Print greeting
-                       run: echo "Hi, Merion!"
+                 - name: Print greeting
+                    run: echo "Hi, Merion!"
                        
                      
