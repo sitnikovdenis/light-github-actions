@@ -1,4 +1,4 @@
-name: Demo workflow
+name: Main workflow
 on: workflow_dispatch
 jobs:
   print:
