@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hi, Merion!"
+        run: echo Hi, Merion!
       - name: Print a few lines
         run: |
           echo first line
